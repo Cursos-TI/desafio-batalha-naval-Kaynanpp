@@ -1,18 +1,8 @@
 /*
-  batalha_completa.c
   Implementação consolidada dos três níveis do desafio "Batalha Naval":
     - Nível Novato: 2 navios (1 vertical, 1 horizontal) — imprime coordenadas
     - Nível Aventureiro: tabuleiro 10x10, 4 navios (inclui diagonais), imprime matriz (0/3)
     - Nível Mestre: demonstra três padrões de habilidade (cone, cruz, octaedro) em matrizes 5x5 (0/1)
-
-  Como usar:
-    gcc batalha_completa.c -o batalha_completa
-    ./batalha_completa
-
-  Observações:
-    - Valores base (âncoras e tamanhos) estão definidos por variáveis no código.
-    - O menu permite executar qualquer nível independentemente.
-    - Proteções básicas de limite foram adicionadas para evitar escrita fora da matriz.
 */
 
 #include <stdio.h>
